@@ -4,7 +4,7 @@ Module for cache connection handling and setup of sqlite
 import sqlite3
 import os
 
-class CacheCtoreSqlite(object):
+class CacheStoreSqlite(object):
     """
     Class that manages the sqlite cache
     """

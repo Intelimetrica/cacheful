@@ -1,5 +1,5 @@
 import pytest
-import cachestoreD as ca
+import cacheful.cachestoreDictionary as ca
 
 def test_init():
 	c = ca.CacheStoreDictionary("test")

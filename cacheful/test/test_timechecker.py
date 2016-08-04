@@ -1,8 +1,8 @@
 """
 Test file for the timechecker module.
 """
-import timechecker
-from pubsubscribe import Publisher
+import cacheful.timechecker as timechecker
+from cacheful.pubsubscribe import Publisher
 import os
 import time
 import datetime
